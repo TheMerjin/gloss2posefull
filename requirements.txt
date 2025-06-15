@@ -1,0 +1,30 @@
+# Core pipeline dependencies
+fiftyone
+datasets
+huggingface_hub>=0.20.0
+
+# For downloading and processing video
+urllib3
+requests
+yt-dlp
+moviepy
+ffmpeg-python
+
+# For numerical and data operations
+numpy
+pandas
+
+# Optional: For debugging or interactive testing
+ipython
+jupyter
+
+# OpenPose typically runs externally (C++ binary), but if you use Python bindings:
+# opencv-python is useful for visualization or preprocessing
+opencv-python
+
+# tqdm for progress bars
+tqdm
+
+# For data management and storage
+h5py
+json5
